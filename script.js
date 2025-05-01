@@ -166,4 +166,4 @@
 // RISPOSTE -----------
 
 // Qual è il metodo migliore per clonare l’oggetto chef, e perché?
-// spread, perché non ci sono dati complessi, ma ci sono metodi
+// spread annidati per copiare sia le funzioni che gli oggetti al suo interno
