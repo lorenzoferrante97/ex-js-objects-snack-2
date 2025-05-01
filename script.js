@@ -133,9 +133,11 @@
 // console.log(secondBurger.maker.restaurant.name); // Hyur's II
 
 // Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
-// 7 oggetti
+// 5 oggetti
 
 // correzione al console.log 3, perché "secondBurger.maker.restaurant = newRestaurant;" cambia l'originale restaurant in "hamburger"
+
+// correzione: vengono0 creati 5 oggetti in totale perché lo spread non crea copie degli oggetti annidati
 
 // QUESTION 6 -----------------------------
 
