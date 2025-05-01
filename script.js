@@ -129,8 +129,10 @@
 // Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
 // console.log(hamburger.maker.name); // Chef Hyur
 // console.log(secondBurger.maker.name); // Chef Hyur
-// console.log(hamburger.maker.restaurant.name); // Hyur's Burgers
+// console.log(hamburger.maker.restaurant.name); // Hyur's II
 // console.log(secondBurger.maker.restaurant.name); // Hyur's II
 
 // Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
 // 7 oggetti
+
+// correzione al console.log 3, perché "secondBurger.maker.restaurant = newRestaurant;" cambia l'originale restaurant in "hamburger"
