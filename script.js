@@ -65,3 +65,31 @@
 
 // Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
 // in totale sono 9 oggetti
+
+// QUESTION 4 -----------------------------
+
+// const chef = {
+// 	name: "Chef Hyur",
+// 	age: 29,
+// 	makeBurger: (num = 1) => {
+// 		console.log(`Ecco ${num} hamburger per te!`);
+// 	},
+// }
+
+// const restaurant = {
+// 	name: "Hyur's Burgers",
+// 	address: {
+// 		street: 'Main Street',
+// 		number: 123,
+// 	},
+// 	openingDate: new Date(2025, 3, 11),
+// 	isOpen: false,
+// };
+
+// RISPOSTE -----------
+
+// Qual è il metodo migliore per clonare l’oggetto chef, e perché?
+// lo spread, in quanto permette di copiare i metodi, e non ci sono dati complessi in "chef"
+
+// Qual è il metodo migliore per clonare l’oggetto restaurant, e perché?
+// lo structuredClone, in quanto in "restaurant" c'è un Date(), quindi permette di mantenerlo come tale, e non ci sono metodi
